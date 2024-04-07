@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1912925E2BC1F456004D5A3C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1912925D2BC1F456004D5A3C /* Button.swift */; };
+		191292612BC1F476004D5A3C /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 191292602BC1F476004D5A3C /* ActivityIndicatorView */; };
+		191292652BC29719004D5A3C /* Boska-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191292642BC29715004D5A3C /* Boska-Variable.ttf */; };
+		191292672BC29723004D5A3C /* Boska-VariableItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191292662BC29723004D5A3C /* Boska-VariableItalic.ttf */; };
+		191292692BC2975D004D5A3C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191292682BC2975D004D5A3C /* Onboarding.swift */; };
+		191292762BC299AB004D5A3C /* Boska-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926A2BC299AA004D5A3C /* Boska-Medium.otf */; };
+		191292772BC299AB004D5A3C /* Boska-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926B2BC299AA004D5A3C /* Boska-MediumItalic.otf */; };
+		191292782BC299AB004D5A3C /* Boska-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926C2BC299AA004D5A3C /* Boska-Black.otf */; };
+		191292792BC299AB004D5A3C /* Boska-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926D2BC299AA004D5A3C /* Boska-Light.otf */; };
+		1912927A2BC299AB004D5A3C /* Boska-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926E2BC299AA004D5A3C /* Boska-Regular.otf */; };
+		1912927B2BC299AB004D5A3C /* Boska-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1912926F2BC299AA004D5A3C /* Boska-Bold.otf */; };
+		1912927C2BC299AB004D5A3C /* Boska-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292702BC299AA004D5A3C /* Boska-LightItalic.otf */; };
+		1912927D2BC299AB004D5A3C /* Boska-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292712BC299AB004D5A3C /* Boska-Extralight.otf */; };
+		1912927E2BC299AB004D5A3C /* Boska-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292722BC299AB004D5A3C /* Boska-ExtralightItalic.otf */; };
+		1912927F2BC299AB004D5A3C /* Boska-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292732BC299AB004D5A3C /* Boska-BoldItalic.otf */; };
+		191292802BC299AB004D5A3C /* Boska-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292742BC299AB004D5A3C /* Boska-BlackItalic.otf */; };
+		191292812BC299AB004D5A3C /* Boska-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 191292752BC299AB004D5A3C /* Boska-Italic.otf */; };
+		191292832BC2C53D004D5A3C /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191292822BC2C53D004D5A3C /* SearchScreen.swift */; };
+		191292852BC2D0A9004D5A3C /* ThreadHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191292842BC2D0A9004D5A3C /* ThreadHistory.swift */; };
+		196C8FDF2BBBDFA300E925EC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C8FDE2BBBDFA300E925EC /* Article.swift */; };
+		196C8FE12BBBE22C00E925EC /* ArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C8FE02BBBE22C00E925EC /* ArticleCard.swift */; };
+		196C8FE32BBBE8A400E925EC /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C8FE22BBBE8A400E925EC /* Discover.swift */; };
+		196C8FE62BBBEA1F00E925EC /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 196C8FE52BBBEA1F00E925EC /* SkeletonUI */; };
+		196C8FE82BBBECA800E925EC /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C8FE72BBBECA800E925EC /* Chip.swift */; };
+		196C8FF72BBCB3E800E925EC /* Unbounded-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FEE2BBCB3E800E925EC /* Unbounded-Black.ttf */; };
+		196C8FF82BBCB3E800E925EC /* Unbounded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FEF2BBCB3E800E925EC /* Unbounded-Bold.ttf */; };
+		196C8FF92BBCB3E800E925EC /* Unbounded-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF02BBCB3E800E925EC /* Unbounded-ExtraLight.ttf */; };
+		196C8FFA2BBCB3E800E925EC /* Unbounded-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF12BBCB3E800E925EC /* Unbounded-VariableFont_wght.ttf */; };
+		196C8FFB2BBCB3E800E925EC /* Unbounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF22BBCB3E800E925EC /* Unbounded-Medium.ttf */; };
+		196C8FFC2BBCB3E800E925EC /* Unbounded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF32BBCB3E800E925EC /* Unbounded-SemiBold.ttf */; };
+		196C8FFD2BBCB3E800E925EC /* Unbounded-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF42BBCB3E800E925EC /* Unbounded-ExtraBold.ttf */; };
+		196C8FFE2BBCB3E800E925EC /* Unbounded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF52BBCB3E800E925EC /* Unbounded-Light.ttf */; };
+		196C8FFF2BBCB3E800E925EC /* Unbounded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196C8FF62BBCB3E800E925EC /* Unbounded-Regular.ttf */; };
+		196C90012BBCC71D00E925EC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196C90002BBCC71D00E925EC /* ImageView.swift */; };
+		196FC66B2BB1272E00E0A3B4 /* QuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC66A2BB1272E00E0A3B4 /* QuestApp.swift */; };
+		196FC66D2BB1272E00E0A3B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC66C2BB1272E00E0A3B4 /* ContentView.swift */; };
+		196FC66F2BB1272E00E0A3B4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC66E2BB1272E00E0A3B4 /* Item.swift */; };
+		196FC6712BB1273000E0A3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196FC6702BB1273000E0A3B4 /* Assets.xcassets */; };
+		196FC6742BB1273000E0A3B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196FC6732BB1273000E0A3B4 /* Preview Assets.xcassets */; };
+		196FC67E2BB1273000E0A3B4 /* QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC67D2BB1273000E0A3B4 /* QuestTests.swift */; };
+		196FC6882BB1273000E0A3B4 /* QuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6872BB1273000E0A3B4 /* QuestUITests.swift */; };
+		196FC68A2BB1273000E0A3B4 /* QuestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6892BB1273000E0A3B4 /* QuestUITestsLaunchTests.swift */; };
+		196FC6982BB127B900E0A3B4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6972BB127B900E0A3B4 /* Home.swift */; };
+		196FC69B2BB1308000E0A3B4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC69A2BB1308000E0A3B4 /* PlaceView.swift */; };
+		196FC69D2BB1364000E0A3B4 /* KnowledgePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC69C2BB1364000E0A3B4 /* KnowledgePanel.swift */; };
+		196FC6A02BB1383D00E0A3B4 /* Glur in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC69F2BB1383D00E0A3B4 /* Glur */; };
+		196FC6A32BB13B1600E0A3B4 /* SwiftUIGradientBlur in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6A22BB13B1600E0A3B4 /* SwiftUIGradientBlur */; };
+		196FC6A62BB2007700E0A3B4 /* Knowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6A52BB2007700E0A3B4 /* Knowledge.swift */; };
+		196FC6A92BB211D500E0A3B4 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6A82BB211D500E0A3B4 /* Collections */; };
+		196FC6AB2BB213D600E0A3B4 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6AA2BB213D600E0A3B4 /* Place.swift */; };
+		196FC6AE2BB2168A00E0A3B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6AD2BB2168A00E0A3B4 /* Extensions.swift */; };
+		196FC6B02BB23CB200E0A3B4 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6AF2BB23CB200E0A3B4 /* Summary.swift */; };
+		196FC6B32BB23E3F00E0A3B4 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6B22BB23E3F00E0A3B4 /* MarkdownUI */; };
+		196FC6B62BB24D4B00E0A3B4 /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6B52BB24D4B00E0A3B4 /* MarkdownKit */; };
+		196FC6B82BB3554600E0A3B4 /* SourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6B72BB3554600E0A3B4 /* SourceView.swift */; };
+		196FC6BA2BB357AF00E0A3B4 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6B92BB357AF00E0A3B4 /* Source.swift */; };
+		196FC6BC2BB35D2800E0A3B4 /* FollowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6BB2BB35D2800E0A3B4 /* FollowUp.swift */; };
+		196FC6BF2BB53D8500E0A3B4 /* Awesome in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6BE2BB53D8500E0A3B4 /* Awesome */; };
+		196FC6C12BB6563D00E0A3B4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6C02BB6563D00E0A3B4 /* SearchView.swift */; };
+		196FC6C32BB656C400E0A3B4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6C22BB656C400E0A3B4 /* SearchBar.swift */; };
+		196FC6C52BB68B4F00E0A3B4 /* EmptySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6C42BB68B4F00E0A3B4 /* EmptySearchView.swift */; };
+		196FC6C72BB68EDB00E0A3B4 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6C62BB68EDB00E0A3B4 /* Search.swift */; };
+		196FC6C92BB68EFB00E0A3B4 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6C82BB68EFB00E0A3B4 /* Thread.swift */; };
+		196FC6CB2BB6926100E0A3B4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6CA2BB6926100E0A3B4 /* Helpers.swift */; };
+		196FC6CD2BB69DB200E0A3B4 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6CC2BB69DB200E0A3B4 /* WebSocket.swift */; };
+		196FC6D02BB73A2D00E0A3B4 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 196FC6CF2BB73A2D00E0A3B4 /* Starscream */; };
+		196FC6D22BB7432300E0A3B4 /* SearchLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FC6D12BB7432300E0A3B4 /* SearchLocationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196FC67A2BB1273000E0A3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196FC65F2BB1272E00E0A3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196FC6662BB1272E00E0A3B4;
+			remoteInfo = Quest;
+		};
+		196FC6842BB1273000E0A3B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196FC65F2BB1272E00E0A3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196FC6662BB1272E00E0A3B4;
+			remoteInfo = Quest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1912925D2BC1F456004D5A3C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		191292642BC29715004D5A3C /* Boska-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Variable.ttf"; sourceTree = "<group>"; };
+		191292662BC29723004D5A3C /* Boska-VariableItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-VariableItalic.ttf"; sourceTree = "<group>"; };
+		191292682BC2975D004D5A3C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		1912926A2BC299AA004D5A3C /* Boska-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Medium.otf"; sourceTree = "<group>"; };
+		1912926B2BC299AA004D5A3C /* Boska-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-MediumItalic.otf"; sourceTree = "<group>"; };
+		1912926C2BC299AA004D5A3C /* Boska-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Black.otf"; sourceTree = "<group>"; };
+		1912926D2BC299AA004D5A3C /* Boska-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Light.otf"; sourceTree = "<group>"; };
+		1912926E2BC299AA004D5A3C /* Boska-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Regular.otf"; sourceTree = "<group>"; };
+		1912926F2BC299AA004D5A3C /* Boska-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Bold.otf"; sourceTree = "<group>"; };
+		191292702BC299AA004D5A3C /* Boska-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-LightItalic.otf"; sourceTree = "<group>"; };
+		191292712BC299AB004D5A3C /* Boska-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Extralight.otf"; sourceTree = "<group>"; };
+		191292722BC299AB004D5A3C /* Boska-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		191292732BC299AB004D5A3C /* Boska-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-BoldItalic.otf"; sourceTree = "<group>"; };
+		191292742BC299AB004D5A3C /* Boska-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-BlackItalic.otf"; sourceTree = "<group>"; };
+		191292752BC299AB004D5A3C /* Boska-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boska-Italic.otf"; sourceTree = "<group>"; };
+		191292822BC2C53D004D5A3C /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		191292842BC2D0A9004D5A3C /* ThreadHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadHistory.swift; sourceTree = "<group>"; };
+		196C8FDE2BBBDFA300E925EC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		196C8FE02BBBE22C00E925EC /* ArticleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCard.swift; sourceTree = "<group>"; };
+		196C8FE22BBBE8A400E925EC /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		196C8FE72BBBECA800E925EC /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		196C8FEE2BBCB3E800E925EC /* Unbounded-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-Black.ttf"; sourceTree = "<group>"; };
+		196C8FEF2BBCB3E800E925EC /* Unbounded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-Bold.ttf"; sourceTree = "<group>"; };
+		196C8FF02BBCB3E800E925EC /* Unbounded-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-ExtraLight.ttf"; sourceTree = "<group>"; };
+		196C8FF12BBCB3E800E925EC /* Unbounded-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		196C8FF22BBCB3E800E925EC /* Unbounded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-Medium.ttf"; sourceTree = "<group>"; };
+		196C8FF32BBCB3E800E925EC /* Unbounded-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-SemiBold.ttf"; sourceTree = "<group>"; };
+		196C8FF42BBCB3E800E925EC /* Unbounded-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-ExtraBold.ttf"; sourceTree = "<group>"; };
+		196C8FF52BBCB3E800E925EC /* Unbounded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-Light.ttf"; sourceTree = "<group>"; };
+		196C8FF62BBCB3E800E925EC /* Unbounded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unbounded-Regular.ttf"; sourceTree = "<group>"; };
+		196C90002BBCC71D00E925EC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		196FC6672BB1272E00E0A3B4 /* Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		196FC66A2BB1272E00E0A3B4 /* QuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestApp.swift; sourceTree = "<group>"; };
+		196FC66C2BB1272E00E0A3B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		196FC66E2BB1272E00E0A3B4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		196FC6702BB1273000E0A3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		196FC6732BB1273000E0A3B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		196FC6792BB1273000E0A3B4 /* QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196FC67D2BB1273000E0A3B4 /* QuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestTests.swift; sourceTree = "<group>"; };
+		196FC6832BB1273000E0A3B4 /* QuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196FC6872BB1273000E0A3B4 /* QuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestUITests.swift; sourceTree = "<group>"; };
+		196FC6892BB1273000E0A3B4 /* QuestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		196FC6972BB127B900E0A3B4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		196FC69A2BB1308000E0A3B4 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		196FC69C2BB1364000E0A3B4 /* KnowledgePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgePanel.swift; sourceTree = "<group>"; };
+		196FC6A52BB2007700E0A3B4 /* Knowledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knowledge.swift; sourceTree = "<group>"; };
+		196FC6AA2BB213D600E0A3B4 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		196FC6AD2BB2168A00E0A3B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		196FC6AF2BB23CB200E0A3B4 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		196FC6B72BB3554600E0A3B4 /* SourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceView.swift; sourceTree = "<group>"; };
+		196FC6B92BB357AF00E0A3B4 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		196FC6BB2BB35D2800E0A3B4 /* FollowUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUp.swift; sourceTree = "<group>"; };
+		196FC6C02BB6563D00E0A3B4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		196FC6C22BB656C400E0A3B4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		196FC6C42BB68B4F00E0A3B4 /* EmptySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchView.swift; sourceTree = "<group>"; };
+		196FC6C62BB68EDB00E0A3B4 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		196FC6C82BB68EFB00E0A3B4 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		196FC6CA2BB6926100E0A3B4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		196FC6CC2BB69DB200E0A3B4 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		196FC6D12BB7432300E0A3B4 /* SearchLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationView.swift; sourceTree = "<group>"; };
+		196FC6D32BB74EAA00E0A3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196FC6642BB1272E00E0A3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196FC6D02BB73A2D00E0A3B4 /* Starscream in Frameworks */,
+				191292612BC1F476004D5A3C /* ActivityIndicatorView in Frameworks */,
+				196FC6BF2BB53D8500E0A3B4 /* Awesome in Frameworks */,
+				196FC6A92BB211D500E0A3B4 /* Collections in Frameworks */,
+				196FC6B62BB24D4B00E0A3B4 /* MarkdownKit in Frameworks */,
+				196FC6A02BB1383D00E0A3B4 /* Glur in Frameworks */,
+				196C8FE62BBBEA1F00E925EC /* SkeletonUI in Frameworks */,
+				196FC6A32BB13B1600E0A3B4 /* SwiftUIGradientBlur in Frameworks */,
+				196FC6B32BB23E3F00E0A3B4 /* MarkdownUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC6762BB1273000E0A3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC6802BB1273000E0A3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191292632BC2970A004D5A3C /* Boska */ = {
+			isa = PBXGroup;
+			children = (
+				1912926C2BC299AA004D5A3C /* Boska-Black.otf */,
+				191292742BC299AB004D5A3C /* Boska-BlackItalic.otf */,
+				1912926F2BC299AA004D5A3C /* Boska-Bold.otf */,
+				191292732BC299AB004D5A3C /* Boska-BoldItalic.otf */,
+				191292712BC299AB004D5A3C /* Boska-Extralight.otf */,
+				191292722BC299AB004D5A3C /* Boska-ExtralightItalic.otf */,
+				191292752BC299AB004D5A3C /* Boska-Italic.otf */,
+				1912926D2BC299AA004D5A3C /* Boska-Light.otf */,
+				191292702BC299AA004D5A3C /* Boska-LightItalic.otf */,
+				1912926A2BC299AA004D5A3C /* Boska-Medium.otf */,
+				1912926B2BC299AA004D5A3C /* Boska-MediumItalic.otf */,
+				1912926E2BC299AA004D5A3C /* Boska-Regular.otf */,
+				191292662BC29723004D5A3C /* Boska-VariableItalic.ttf */,
+				191292642BC29715004D5A3C /* Boska-Variable.ttf */,
+			);
+			path = Boska;
+			sourceTree = "<group>";
+		};
+		196C8FE92BBCAF3300E925EC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				191292632BC2970A004D5A3C /* Boska */,
+				196C8FED2BBCB3E800E925EC /* Unbounded */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		196C8FED2BBCB3E800E925EC /* Unbounded */ = {
+			isa = PBXGroup;
+			children = (
+				196C8FEE2BBCB3E800E925EC /* Unbounded-Black.ttf */,
+				196C8FEF2BBCB3E800E925EC /* Unbounded-Bold.ttf */,
+				196C8FF02BBCB3E800E925EC /* Unbounded-ExtraLight.ttf */,
+				196C8FF12BBCB3E800E925EC /* Unbounded-VariableFont_wght.ttf */,
+				196C8FF22BBCB3E800E925EC /* Unbounded-Medium.ttf */,
+				196C8FF32BBCB3E800E925EC /* Unbounded-SemiBold.ttf */,
+				196C8FF42BBCB3E800E925EC /* Unbounded-ExtraBold.ttf */,
+				196C8FF52BBCB3E800E925EC /* Unbounded-Light.ttf */,
+				196C8FF62BBCB3E800E925EC /* Unbounded-Regular.ttf */,
+			);
+			path = Unbounded;
+			sourceTree = "<group>";
+		};
+		196FC65E2BB1272E00E0A3B4 = {
+			isa = PBXGroup;
+			children = (
+				196FC6692BB1272E00E0A3B4 /* Quest */,
+				196FC67C2BB1273000E0A3B4 /* QuestTests */,
+				196FC6862BB1273000E0A3B4 /* QuestUITests */,
+				196FC6682BB1272E00E0A3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		196FC6682BB1272E00E0A3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6672BB1272E00E0A3B4 /* Quest.app */,
+				196FC6792BB1273000E0A3B4 /* QuestTests.xctest */,
+				196FC6832BB1273000E0A3B4 /* QuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196FC6692BB1272E00E0A3B4 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				196C8FE92BBCAF3300E925EC /* Fonts */,
+				196FC6D32BB74EAA00E0A3B4 /* Info.plist */,
+				196FC6AC2BB2166D00E0A3B4 /* Providers */,
+				196FC6A42BB2006000E0A3B4 /* Models */,
+				196FC6992BB1305900E0A3B4 /* Components */,
+				196FC6962BB1279E00E0A3B4 /* Screens */,
+				196FC66A2BB1272E00E0A3B4 /* QuestApp.swift */,
+				196FC66C2BB1272E00E0A3B4 /* ContentView.swift */,
+				196FC66E2BB1272E00E0A3B4 /* Item.swift */,
+				196FC6702BB1273000E0A3B4 /* Assets.xcassets */,
+				196FC6722BB1273000E0A3B4 /* Preview Content */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		196FC6722BB1273000E0A3B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6732BB1273000E0A3B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		196FC67C2BB1273000E0A3B4 /* QuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				196FC67D2BB1273000E0A3B4 /* QuestTests.swift */,
+			);
+			path = QuestTests;
+			sourceTree = "<group>";
+		};
+		196FC6862BB1273000E0A3B4 /* QuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6872BB1273000E0A3B4 /* QuestUITests.swift */,
+				196FC6892BB1273000E0A3B4 /* QuestUITestsLaunchTests.swift */,
+			);
+			path = QuestUITests;
+			sourceTree = "<group>";
+		};
+		196FC6962BB1279E00E0A3B4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6972BB127B900E0A3B4 /* Home.swift */,
+				196FC6C42BB68B4F00E0A3B4 /* EmptySearchView.swift */,
+				196C8FE22BBBE8A400E925EC /* Discover.swift */,
+				191292682BC2975D004D5A3C /* Onboarding.swift */,
+				191292822BC2C53D004D5A3C /* SearchScreen.swift */,
+				191292842BC2D0A9004D5A3C /* ThreadHistory.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		196FC6992BB1305900E0A3B4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				196FC69A2BB1308000E0A3B4 /* PlaceView.swift */,
+				196FC69C2BB1364000E0A3B4 /* KnowledgePanel.swift */,
+				196FC6AF2BB23CB200E0A3B4 /* Summary.swift */,
+				196FC6B72BB3554600E0A3B4 /* SourceView.swift */,
+				196FC6BB2BB35D2800E0A3B4 /* FollowUp.swift */,
+				196FC6C02BB6563D00E0A3B4 /* SearchView.swift */,
+				196FC6C22BB656C400E0A3B4 /* SearchBar.swift */,
+				196FC6D12BB7432300E0A3B4 /* SearchLocationView.swift */,
+				196C8FE02BBBE22C00E925EC /* ArticleCard.swift */,
+				196C8FE72BBBECA800E925EC /* Chip.swift */,
+				196C90002BBCC71D00E925EC /* ImageView.swift */,
+				1912925D2BC1F456004D5A3C /* Button.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		196FC6A42BB2006000E0A3B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6A52BB2007700E0A3B4 /* Knowledge.swift */,
+				196FC6AA2BB213D600E0A3B4 /* Place.swift */,
+				196FC6B92BB357AF00E0A3B4 /* Source.swift */,
+				196FC6C62BB68EDB00E0A3B4 /* Search.swift */,
+				196FC6C82BB68EFB00E0A3B4 /* Thread.swift */,
+				196FC6CC2BB69DB200E0A3B4 /* WebSocket.swift */,
+				196C8FDE2BBBDFA300E925EC /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		196FC6AC2BB2166D00E0A3B4 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				196FC6AD2BB2168A00E0A3B4 /* Extensions.swift */,
+				196FC6CA2BB6926100E0A3B4 /* Helpers.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196FC6662BB1272E00E0A3B4 /* Quest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196FC68D2BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "Quest" */;
+			buildPhases = (
+				196FC6632BB1272E00E0A3B4 /* Sources */,
+				196FC6642BB1272E00E0A3B4 /* Frameworks */,
+				196FC6652BB1272E00E0A3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quest;
+			packageProductDependencies = (
+				196FC69F2BB1383D00E0A3B4 /* Glur */,
+				196FC6A22BB13B1600E0A3B4 /* SwiftUIGradientBlur */,
+				196FC6A82BB211D500E0A3B4 /* Collections */,
+				196FC6B22BB23E3F00E0A3B4 /* MarkdownUI */,
+				196FC6B52BB24D4B00E0A3B4 /* MarkdownKit */,
+				196FC6BE2BB53D8500E0A3B4 /* Awesome */,
+				196FC6CF2BB73A2D00E0A3B4 /* Starscream */,
+				196C8FE52BBBEA1F00E925EC /* SkeletonUI */,
+				191292602BC1F476004D5A3C /* ActivityIndicatorView */,
+			);
+			productName = Quest;
+			productReference = 196FC6672BB1272E00E0A3B4 /* Quest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196FC6782BB1273000E0A3B4 /* QuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196FC6902BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "QuestTests" */;
+			buildPhases = (
+				196FC6752BB1273000E0A3B4 /* Sources */,
+				196FC6762BB1273000E0A3B4 /* Frameworks */,
+				196FC6772BB1273000E0A3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196FC67B2BB1273000E0A3B4 /* PBXTargetDependency */,
+			);
+			name = QuestTests;
+			productName = QuestTests;
+			productReference = 196FC6792BB1273000E0A3B4 /* QuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		196FC6822BB1273000E0A3B4 /* QuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196FC6932BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "QuestUITests" */;
+			buildPhases = (
+				196FC67F2BB1273000E0A3B4 /* Sources */,
+				196FC6802BB1273000E0A3B4 /* Frameworks */,
+				196FC6812BB1273000E0A3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196FC6852BB1273000E0A3B4 /* PBXTargetDependency */,
+			);
+			name = QuestUITests;
+			productName = QuestUITests;
+			productReference = 196FC6832BB1273000E0A3B4 /* QuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196FC65F2BB1272E00E0A3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					196FC6662BB1272E00E0A3B4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					196FC6782BB1273000E0A3B4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 196FC6662BB1272E00E0A3B4;
+					};
+					196FC6822BB1273000E0A3B4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 196FC6662BB1272E00E0A3B4;
+					};
+				};
+			};
+			buildConfigurationList = 196FC6622BB1272E00E0A3B4 /* Build configuration list for PBXProject "Quest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196FC65E2BB1272E00E0A3B4;
+			packageReferences = (
+				196FC69E2BB1383D00E0A3B4 /* XCRemoteSwiftPackageReference "Glur" */,
+				196FC6A12BB13B1600E0A3B4 /* XCRemoteSwiftPackageReference "SwiftUIGradientBlur" */,
+				196FC6A72BB2105000E0A3B4 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				196FC6B12BB23E3F00E0A3B4 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				196FC6B42BB24D4B00E0A3B4 /* XCRemoteSwiftPackageReference "MarkdownKit" */,
+				196FC6BD2BB53D8500E0A3B4 /* XCRemoteSwiftPackageReference "Awesome" */,
+				196FC6CE2BB73A2D00E0A3B4 /* XCRemoteSwiftPackageReference "Starscream" */,
+				196C8FE42BBBEA1F00E925EC /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				1912925F2BC1F476004D5A3C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
+			productRefGroup = 196FC6682BB1272E00E0A3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196FC6662BB1272E00E0A3B4 /* Quest */,
+				196FC6782BB1273000E0A3B4 /* QuestTests */,
+				196FC6822BB1273000E0A3B4 /* QuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196FC6652BB1272E00E0A3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191292782BC299AB004D5A3C /* Boska-Black.otf in Resources */,
+				196FC6742BB1273000E0A3B4 /* Preview Assets.xcassets in Resources */,
+				196C8FFD2BBCB3E800E925EC /* Unbounded-ExtraBold.ttf in Resources */,
+				196C8FF82BBCB3E800E925EC /* Unbounded-Bold.ttf in Resources */,
+				191292802BC299AB004D5A3C /* Boska-BlackItalic.otf in Resources */,
+				1912927E2BC299AB004D5A3C /* Boska-ExtralightItalic.otf in Resources */,
+				191292672BC29723004D5A3C /* Boska-VariableItalic.ttf in Resources */,
+				1912927F2BC299AB004D5A3C /* Boska-BoldItalic.otf in Resources */,
+				1912927A2BC299AB004D5A3C /* Boska-Regular.otf in Resources */,
+				196C8FFB2BBCB3E800E925EC /* Unbounded-Medium.ttf in Resources */,
+				196C8FFF2BBCB3E800E925EC /* Unbounded-Regular.ttf in Resources */,
+				191292772BC299AB004D5A3C /* Boska-MediumItalic.otf in Resources */,
+				196C8FF72BBCB3E800E925EC /* Unbounded-Black.ttf in Resources */,
+				191292762BC299AB004D5A3C /* Boska-Medium.otf in Resources */,
+				1912927C2BC299AB004D5A3C /* Boska-LightItalic.otf in Resources */,
+				191292812BC299AB004D5A3C /* Boska-Italic.otf in Resources */,
+				196FC6712BB1273000E0A3B4 /* Assets.xcassets in Resources */,
+				191292792BC299AB004D5A3C /* Boska-Light.otf in Resources */,
+				196C8FFA2BBCB3E800E925EC /* Unbounded-VariableFont_wght.ttf in Resources */,
+				196C8FFE2BBCB3E800E925EC /* Unbounded-Light.ttf in Resources */,
+				191292652BC29719004D5A3C /* Boska-Variable.ttf in Resources */,
+				1912927B2BC299AB004D5A3C /* Boska-Bold.otf in Resources */,
+				196C8FFC2BBCB3E800E925EC /* Unbounded-SemiBold.ttf in Resources */,
+				196C8FF92BBCB3E800E925EC /* Unbounded-ExtraLight.ttf in Resources */,
+				1912927D2BC299AB004D5A3C /* Boska-Extralight.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC6772BB1273000E0A3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC6812BB1273000E0A3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196FC6632BB1272E00E0A3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196C8FDF2BBBDFA300E925EC /* Article.swift in Sources */,
+				196FC6C52BB68B4F00E0A3B4 /* EmptySearchView.swift in Sources */,
+				196FC6CB2BB6926100E0A3B4 /* Helpers.swift in Sources */,
+				196C8FE82BBBECA800E925EC /* Chip.swift in Sources */,
+				196C90012BBCC71D00E925EC /* ImageView.swift in Sources */,
+				196FC69D2BB1364000E0A3B4 /* KnowledgePanel.swift in Sources */,
+				191292832BC2C53D004D5A3C /* SearchScreen.swift in Sources */,
+				196FC6AE2BB2168A00E0A3B4 /* Extensions.swift in Sources */,
+				196FC6C32BB656C400E0A3B4 /* SearchBar.swift in Sources */,
+				196FC6C72BB68EDB00E0A3B4 /* Search.swift in Sources */,
+				196FC6B82BB3554600E0A3B4 /* SourceView.swift in Sources */,
+				191292692BC2975D004D5A3C /* Onboarding.swift in Sources */,
+				196FC66D2BB1272E00E0A3B4 /* ContentView.swift in Sources */,
+				196FC6C92BB68EFB00E0A3B4 /* Thread.swift in Sources */,
+				196FC6CD2BB69DB200E0A3B4 /* WebSocket.swift in Sources */,
+				196FC6D22BB7432300E0A3B4 /* SearchLocationView.swift in Sources */,
+				196FC6982BB127B900E0A3B4 /* Home.swift in Sources */,
+				196FC6AB2BB213D600E0A3B4 /* Place.swift in Sources */,
+				1912925E2BC1F456004D5A3C /* Button.swift in Sources */,
+				196FC6A62BB2007700E0A3B4 /* Knowledge.swift in Sources */,
+				196FC6B02BB23CB200E0A3B4 /* Summary.swift in Sources */,
+				196FC6BA2BB357AF00E0A3B4 /* Source.swift in Sources */,
+				196FC66F2BB1272E00E0A3B4 /* Item.swift in Sources */,
+				196FC6C12BB6563D00E0A3B4 /* SearchView.swift in Sources */,
+				191292852BC2D0A9004D5A3C /* ThreadHistory.swift in Sources */,
+				196FC66B2BB1272E00E0A3B4 /* QuestApp.swift in Sources */,
+				196FC6BC2BB35D2800E0A3B4 /* FollowUp.swift in Sources */,
+				196FC69B2BB1308000E0A3B4 /* PlaceView.swift in Sources */,
+				196C8FE32BBBE8A400E925EC /* Discover.swift in Sources */,
+				196C8FE12BBBE22C00E925EC /* ArticleCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC6752BB1273000E0A3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196FC67E2BB1273000E0A3B4 /* QuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196FC67F2BB1273000E0A3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196FC6882BB1273000E0A3B4 /* QuestUITests.swift in Sources */,
+				196FC68A2BB1273000E0A3B4 /* QuestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196FC67B2BB1273000E0A3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196FC6662BB1272E00E0A3B4 /* Quest */;
+			targetProxy = 196FC67A2BB1273000E0A3B4 /* PBXContainerItemProxy */;
+		};
+		196FC6852BB1273000E0A3B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196FC6662BB1272E00E0A3B4 /* Quest */;
+			targetProxy = 196FC6842BB1273000E0A3B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196FC68B2BB1273000E0A3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		196FC68C2BB1273000E0A3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196FC68E2BB1273000E0A3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.Quest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		196FC68F2BB1273000E0A3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quest/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.Quest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		196FC6912BB1273000E0A3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.QuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quest";
+			};
+			name = Debug;
+		};
+		196FC6922BB1273000E0A3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.QuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quest";
+			};
+			name = Release;
+		};
+		196FC6942BB1273000E0A3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.QuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quest;
+			};
+			name = Debug;
+		};
+		196FC6952BB1273000E0A3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QNZN5JY6B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.devflow.QuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196FC6622BB1272E00E0A3B4 /* Build configuration list for PBXProject "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196FC68B2BB1273000E0A3B4 /* Debug */,
+				196FC68C2BB1273000E0A3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196FC68D2BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "Quest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196FC68E2BB1273000E0A3B4 /* Debug */,
+				196FC68F2BB1273000E0A3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196FC6902BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "QuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196FC6912BB1273000E0A3B4 /* Debug */,
+				196FC6922BB1273000E0A3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196FC6932BB1273000E0A3B4 /* Build configuration list for PBXNativeTarget "QuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196FC6942BB1273000E0A3B4 /* Debug */,
+				196FC6952BB1273000E0A3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1912925F2BC1F476004D5A3C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		196C8FE42BBBEA1F00E925EC /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		196FC69E2BB1383D00E0A3B4 /* XCRemoteSwiftPackageReference "Glur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/Glur";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		196FC6A12BB13B1600E0A3B4 /* XCRemoteSwiftPackageReference "SwiftUIGradientBlur" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unitedadityaa/SwiftUIGradientBlur";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		196FC6A72BB2105000E0A3B4 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		196FC6B12BB23E3F00E0A3B4 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		196FC6B42BB24D4B00E0A3B4 /* XCRemoteSwiftPackageReference "MarkdownKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bmoliveira/MarkdownKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.1;
+			};
+		};
+		196FC6BD2BB53D8500E0A3B4 /* XCRemoteSwiftPackageReference "Awesome" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LiveUI/Awesome";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+		196FC6CE2BB73A2D00E0A3B4 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		191292602BC1F476004D5A3C /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1912925F2BC1F476004D5A3C /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		196C8FE52BBBEA1F00E925EC /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196C8FE42BBBEA1F00E925EC /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
+		196FC69F2BB1383D00E0A3B4 /* Glur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC69E2BB1383D00E0A3B4 /* XCRemoteSwiftPackageReference "Glur" */;
+			productName = Glur;
+		};
+		196FC6A22BB13B1600E0A3B4 /* SwiftUIGradientBlur */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6A12BB13B1600E0A3B4 /* XCRemoteSwiftPackageReference "SwiftUIGradientBlur" */;
+			productName = SwiftUIGradientBlur;
+		};
+		196FC6A82BB211D500E0A3B4 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6A72BB2105000E0A3B4 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		196FC6B22BB23E3F00E0A3B4 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6B12BB23E3F00E0A3B4 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		196FC6B52BB24D4B00E0A3B4 /* MarkdownKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6B42BB24D4B00E0A3B4 /* XCRemoteSwiftPackageReference "MarkdownKit" */;
+			productName = MarkdownKit;
+		};
+		196FC6BE2BB53D8500E0A3B4 /* Awesome */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6BD2BB53D8500E0A3B4 /* XCRemoteSwiftPackageReference "Awesome" */;
+			productName = Awesome;
+		};
+		196FC6CF2BB73A2D00E0A3B4 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 196FC6CE2BB73A2D00E0A3B4 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 196FC65F2BB1272E00E0A3B4 /* Project object */;
+}

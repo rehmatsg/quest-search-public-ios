@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict/>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>quest-search-production.up.railway.app/</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>quest-search.onrender.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Unbounded-Black.ttf</string>
+		<string>Unbounded-Regular.ttf</string>
+		<string>Unbounded-Bold.ttf</string>
+		<string>Unbounded-ExtraLight.ttf</string>
+		<string>Unbounded-VariableFont_wght.ttf</string>
+		<string>Unbounded-Medium.ttf</string>
+		<string>Unbounded-SemiBold.ttf</string>
+		<string>Unbounded-Light.ttf</string>
+		<string>Boska-Variable.ttf</string>
+		<string>Boska-VariableItalic.ttf</string>
+		<string>Boska-Black.otf</string>
+		<string>Boska-Regular.otf</string>
+		<string>Boska-Light.otf</string>
+		<string>Boska-ExtraLight.otf</string>
+		<string>Boska-ExtralightItalic.otf</string>
+		<string>Boska-LightItalic.otf</string>
+		<string>Boska-Italic.otf</string>
+		<string>Boska-Medium.otf</string>
+		<string>Boska-MediumItalic.otf</string>
+		<string>Boska-Bold.otf</string>
+		<string>Boska-BoldItalic.otf</string>
+		<string>Boska-BlackItalic.otf</string>
+	</array>
+</dict>
+</plist>

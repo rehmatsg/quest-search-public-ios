@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "rehmatsg_super_realistic_drone_shot_of_an_astronaut_lost_in_des_0625eb36-e536-4dac-9bf6-76a03eabbfa7.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
